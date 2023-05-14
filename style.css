@@ -49,7 +49,7 @@ body{
 }
 audio{
 	position: absolute;
-	visibility: hidden;
+	visibility: visible;
 
 }
 .heading{
