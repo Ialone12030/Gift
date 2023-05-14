@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
 	margin:0;
@@ -47,11 +48,6 @@ body{
 	}
 	
 }
-audio{
-	position: absolute;
-	visibility: visible;
-
-}
 .heading{
   position: relative;
   width: 100%;
@@ -60,7 +56,13 @@ audio{
   border-radius: 10% 10% 35% 43% / 0% 0% 27% 41% ;
 transform: 50% , 50%;
 }
-
+.audio{
+	z-index: -3;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0%;
+	
+}
 h2{
   position: absolute;
   left: 38%;
