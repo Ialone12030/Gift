@@ -57,11 +57,10 @@ body{
 transform: 50% , 50%;
 }
 .audio{
-	z-index: -3;
+	
 	position: absolute;
 	visibility: hidden;
-	opacity: 0%;
-	
+
 }
 h2{
   position: absolute;
